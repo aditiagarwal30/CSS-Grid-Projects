@@ -1,0 +1,21 @@
+    body {
+        background-color: coral;
+    }
+    
+    .container {
+        background-color: dodgerblue;
+        display: grid;
+        grid: 100px 100px/ 200px 200px;
+        /*grid-template-rows: 100px 100px 100px;*/
+    }
+    
+    .inline-container {
+        display: inline-grid;
+        background-color: gold;
+        grid: 50px 50px 50px 50px/50px;
+    }
+    
+    .item {
+        border: 1px solid rgb(0, 0, 0);
+        background-color: darkgray;
+    }
